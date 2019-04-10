@@ -1,1 +1,1 @@
-# NextTechHackerNews
+# NexTechHackerNews
