@@ -1,10 +1,12 @@
 <template>
   <div class="pure-menu pure-menu-horizontal">
     <div class="container">
-      <a href="#" class="pure-menu-heading pure-menu-link">Home</a>
+      <router-link to="/" class="pure-menu-heading pure-menu-link"
+        >Home</router-link
+      >
       <ul class="pure-menu-list">
         <li class="pure-menu-item">
-          <a href="#" class="pure-menu-link">News</a>
+          <router-link class="pure-menu-link" to="/news">News</router-link>
         </li>
       </ul>
     </div>
@@ -19,7 +21,7 @@
 
 <style scoped>
   .pure-menu {
-    background-color: #e17842;
+    background-color: #404040;
   }
   .pure-menu a {
     color: white;
