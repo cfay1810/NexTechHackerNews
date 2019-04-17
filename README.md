@@ -11,3 +11,10 @@ https://yarnpkg.com/lang/en/docs/install/#mac-stable
 # Directions
 You can run this on any code editor. I used Atom. Once the project is loaded and yarn is installed. You would go into the hackernewsapp folder in the terminal and enter 'yarn serve' this should populate the localhost which on mine was: http://localhost:8080/ 
 
+# Languages Used
+  * VueJs
+  * C#
+  * Javascript
+  * HTML
+  * CSS
+  * API
