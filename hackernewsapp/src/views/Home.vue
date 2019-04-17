@@ -1,10 +1,12 @@
 <template>
     <div>
-        <h2>Hacker News</h2>        
         <div v-for="story in stories" :key="story">
-            <h3>{{ story.data.title }} | Author: {{ story.data.by }}</h3>
-            <p>{{ story.data.url }}</p>
-            </div>
+            <table style="width:100%">
+                <tr>
+                    <th><strong><a :href="story.data.url" target="_blank" rel="noopener" style="text-decoration:none;">{{ story.data.title }}</a></strong> ({{ story.data.by }})</th>
+                </tr>
+            </table>
+        </div>
     </div>
 </template>
 
@@ -21,8 +23,8 @@
             }
         },
         created: function () {
-            // https://hacker-news.firebaseio.com/v0/topstories.json
-            axios.get('https://hacker-news.firebaseio.com/v0/topstories.json')
+            // https://hacker-news.firebaseio.com/v0/newstories.json
+            axios.get('https://hacker-news.firebaseio.com/v0/newstories.json')
                 .then((response) => {
                     let results = response.data.slice(0, 10)
                     results.forEach(id => {

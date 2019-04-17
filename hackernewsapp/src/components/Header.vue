@@ -1,7 +1,7 @@
 <template>
   <div class="pure-menu pure-menu-horizontal">
     <div class="container">
-<router-link class="pure-menu-link" to="/news">News</router-link>
+        <h2>Hacker News Web App</h2>
     </div>
   </div>
 </template>
@@ -14,9 +14,13 @@
 
 <style scoped>
   .pure-menu {
-    background-color: #404040;
+    background-color: #c00808;
   }
   .pure-menu a {
+    color: white;
+  }
+  h2 {
+    text-align: center;
     color: white;
   }
 </style>
