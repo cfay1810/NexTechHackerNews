@@ -15,6 +15,7 @@ You can run this on any code editor. I used Atom. Once the project is loaded and
   * VueJs
   * C#
   * Javascript
+  * Typescript
   * HTML
   * CSS
   * API
