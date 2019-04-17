@@ -1,6 +1,7 @@
-# NexTechHackerNews Codin Exercise
+# NexTechHackerNews Coding Exercise
 
-# Exercise: Use https://github.com/HackerNews/API to generate a web-based solution using C# and .NET that displays the title and author of the newest stories on Hacker News. There should be tests. It should compile and run. The title should take you to the article. Be modern in your example. 
+# Exercise: 
+Use https://github.com/HackerNews/API to generate a web-based solution using C# and .NET that displays the title and author of the newest stories on Hacker News. There should be tests. It should compile and run. The title should take you to the article. Be modern in your example. 
 
 # Installation
 To run this code, it is best to use run this using yarn which is what I used.
