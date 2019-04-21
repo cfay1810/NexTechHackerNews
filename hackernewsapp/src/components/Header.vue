@@ -1,7 +1,7 @@
 <template>
   <div class="pure-menu pure-menu-horizontal">
     <div class="container">
-        <h2>Hacker News Web App</h2>
+        <router-link to="/"><h2>Hacker News Web App</h2></router-link>
     </div>
   </div>
 </template>
@@ -23,4 +23,5 @@
     text-align: center;
     color: white;
   }
+
 </style>
