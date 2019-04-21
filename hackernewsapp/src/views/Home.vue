@@ -28,7 +28,7 @@
             // https://hacker-news.firebaseio.com/v0/newstories.json
             axios.get('https://hacker-news.firebaseio.com/v0/newstories.json')
                 .then((response) => {
-                    let results = response.data.slice(0, 50)
+                    let results = response.data.slice(0, 100)
                     results.forEach(id => {
                         axios.get('https://hacker-news.firebaseio.com/v0/item/' + id + '.json')
                             .then((response) => {
